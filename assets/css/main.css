@@ -1315,6 +1315,7 @@ input, select, textarea {
 		background-size: auto, 100% 100%;
 		background-attachment: fixed;
 		overflow-y: scroll;
+		
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -1350,6 +1351,7 @@ input, select, textarea {
 
 			body, input, textarea, select {
 				font-size: 14pt;
+				
 			}
 
 		}
@@ -1373,16 +1375,19 @@ input, select, textarea {
 	strong, b, h1, h2, h3, h4, h5, h6 {
 		font-weight: 400;
 		color: #363636;
+		line-height: 0em;
 	}
 
 	h1 {
 		font-size: 2.4em;
 		letter-spacing: -0.015em;
+		
 	}
 
 	h2 {
 		font-size: 1.8em;
 		letter-spacing: -0.015em;
+		
 	}
 
 	h3, h4, h5, h6 {
@@ -1399,6 +1404,7 @@ input, select, textarea {
 
 		h2 {
 			font-size: 1.375em;
+			
 		}
 
 		h3, h4, h5, h6 {
@@ -1446,7 +1452,7 @@ input, select, textarea {
 	}
 
 /* Table */
-/*
+
 	table {
 		width: 100%;
 	}
@@ -1468,7 +1474,7 @@ input, select, textarea {
 		table.default thead {
 			border-bottom: solid 2px #f4f4f4;
 		}
- */
+ 
 /* Form */
 
 	form label {
